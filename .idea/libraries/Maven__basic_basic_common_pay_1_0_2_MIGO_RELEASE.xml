@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: basic:basic.common.pay:1.0.2-MIGO-RELEASE">
+    <CLASSES>
+      <root url="jar://D:/maven-repository/basic/basic.common.pay/1.0.2-MIGO-RELEASE/basic.common.pay-1.0.2-MIGO-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven-repository/basic/basic.common.pay/1.0.2-MIGO-RELEASE/basic.common.pay-1.0.2-MIGO-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/maven-repository/basic/basic.common.pay/1.0.2-MIGO-RELEASE/basic.common.pay-1.0.2-MIGO-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

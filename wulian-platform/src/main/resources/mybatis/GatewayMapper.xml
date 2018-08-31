@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shy.iot.wulian.business.gateway.dao.GatewayDao">
+
+
+    <!-- 用于select查询公用抽取的列 -->
+    <sql id="columns">
+        <![CDATA[
+		id,gwId,openId,gwName,gwType,gwPassword,messageCode
+	    ]]>
+    </sql>
+
+    <!--保存 -->
+    <insert id="insertGateway">
+        <![CDATA[
+	        INSERT INTO gateway (
+	        	id,gwId,openId,gwName,gwType,gwPassword,messageCode
+	        ) VALUES (
+	        	#{id} ,
+	        	#{gwId} ,
+	        	#{openId} ,
+	        	#{gwName} ,
+	        	#{gwType} ,
+	        	#{gwPassword},
+	        	#{messageCode}
+
+	        )
+	    ]]>
+    </insert>
+
+    <!-- 批量保存 -->
+    <insert id="insertGatewayBatch">
+        <![CDATA[
+	        INSERT INTO gateway (
+	        	id,gwId,openId,gwName,gwType,gwPassword,messageCode
+	        ) VALUES
+	         ]]>
+        <foreach item="item" collection="list" separator=",">
+            (
+            #{item.id} ,
+            #{item.gwId} ,
+            #{item.openId} ,
+            #{item.gwName} ,
+            #{item.gwType} ,
+            #{item.gwPassword},
+            #{item.messageCode} ,
+
+            )
+        </foreach>
+
+    </insert>
+
+    <!-- update 条件组合 -->
+    <sql id="update_sql">
+        <set>
+
+            <if
+                    test="openId != null and openId != ''">
+                openId = #{openId}
+                ,
+            </if>
+            <if
+                    test="gwName != null and gwName != ''">
+                gwName = #{gwName}
+                ,
+            </if>
+            <if
+                    test="gwType != null and gwType != ''">
+                gwType = #{gwType}
+                ,
+            </if>
+            <if test="gwPassword!=null and gwPassword!=''">
+                gwPassword=#{gwPassword},
+            </if>
+            <if
+                    test="messageCode != null and messageCode != ''">
+                messageCode = #{messageCode}
+                ,
+            </if>
+            <if test="createTime != null">
+                createTime = #{createTime}
+            </if>
+        </set>
+    </sql>
+
+    <!-- 模糊查询这样： 字段名 LIKE CONCAT('%',CONCAT(#{model.userName},'%')) -->
+    <!-- where 条件组合 -->
+    <sql id="where_sql">
+        <where>
+            <if
+                    test="gateway.gwId != null and gateway.gwId != ''">
+                gwId = #{gateway.gwId}
+            </if>
+            <if
+                    test="gateway.openId != null and gateway.openId != ''">
+                and openId = #{gateway.openId}
+            </if>
+            <if
+                    test="gateway.gwName != null and gateway.gwName != ''">
+                and gwName = #{gateway.gwName}
+            </if>
+            <if
+                    test="gateway.gwType != null and gateway.gwType != ''">
+                and gwType = #{gateway.gwType}
+            </if>
+            <if test="gwPassword!=null and gwPassword!=''">
+                and gwPassword=#{gateway.gwPassword},
+            </if>
+            <if
+                    test="gateway.messageCode != null and gateway.messageCode != ''">
+                and messageCode = #{gateway.messageCode}
+            </if>
+            <if test="gateway.createTime != null">
+                and createTime = #{gateway.createTime}
+            </if>
+        </where>
+    </sql>
+
+    <!-- 修改 -->
+    <update id="updateGatewayById">
+        UPDATE gateway
+        <include refid="update_sql" />
+        WHERE
+        Id =
+        #{Id} 	</update>
+
+    <!--修改网关上下线状态-->
+    <update id="updateMessagecodeByGwId">
+        UPDATE gateway SET messageCode=#{messageCode}
+        WHERE gwId=#{gwId}
+    </update>
+
+    <!--修改网关密码-->
+    <update id="updatePasswordByGwId">
+        UPDATE gateway SET gwPassword=#{gwPassword}
+        WHERE gwId=#{gwId}
+    </update>
+
+    <!--修改网关名称-->
+    <update id="updateGwNameByGwId">
+        UPDATE gateway SET gwName=#{gwName}
+        WHERE gwId=#{gwId}
+    </update>
+
+    <!-- 根据ID删除 -->
+    <delete id="deleteGatewayById">
+        DELETE FROM gateway
+        WHERE
+        id = #{id} 	</delete>
+
+
+
+    <!-- selsect -->
+    <select id="getGatewayById" resultType="com.wulian.business.gateway.model.Gateway">
+        SELECT
+        <include refid="columns" />
+        FROM gateway
+        WHERE
+        id = #{id} 	</select>
+
+    <!-- selsect -->
+    <select id="getGateways" resultType="com.wulian.business.gateway.model.Gateway">
+        SELECT
+        <include refid="columns" />
+        FROM gateway
+        <include refid="where_sql" />
+    </select>
+
+    <!-- selsect -->
+    <select id="getGatewaysForPage" resultType="com.wulian.business.gateway.model.Gateway">
+        SELECT
+        <include refid="columns" />
+        FROM gateway
+        <include refid="where_sql" />
+    </select>
+
+    <select id="getGatewaysByConditions" resultType="com.wulian.business.gateway.model.Gateway">
+        SELECT
+        <include refid="columns" />
+        FROM gateway
+        WHERE
+        1 =1
+        <foreach collection="conditions" item="condition">
+            {condition.exp}
+        </foreach>
+    </select>
+
+</mapper>

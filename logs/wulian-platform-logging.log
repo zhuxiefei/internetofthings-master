@@ -1,0 +1,408 @@
+2018/08/29-13:43 [main] INFO  com.shy.WulianPlatformApp- Starting WulianPlatformApp on guojiaweideMacBook-Pro.local with PID 20268 (/Users/guojiawei/Downloads/itworksapces/Internetofthings/wulian-platform/target/classes started by guojiawei in /Users/guojiawei/Downloads/itworksapces/Internetofthings)
+2018/08/29-13:43 [main] INFO  com.shy.WulianPlatformApp- No active profile set, falling back to default profiles: default
+2018/08/29-13:43 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Wed Aug 29 13:43:28 CST 2018]; root of context hierarchy
+2018/08/29-13:43 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy]' package. Please check your configuration.
+2018/08/29-13:43 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/29-13:43 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/29-13:43 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1622 ms
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'dispatcherServlet' to [/]
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'statViewServlet' to [/druid/*]
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+2018/08/29-13:43 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'webStatFilter' to urls: [/*]
+2018/08/29-13:43 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Wed Aug 29 13:43:28 CST 2018]; root of context hierarchy
+2018/08/29-13:43 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018/08/29-13:43 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018/08/29-13:43 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/29-13:43 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/29-13:43 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/29-13:43 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+2018/08/29-13:43 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018/08/29-13:43 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018/08/29-13:43 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat started on port(s): 9010 (http)
+2018/08/29-13:43 [main] INFO  com.shy.WulianPlatformApp- Started WulianPlatformApp in 3.575 seconds (JVM running for 5.364)
+2018/08/29-13:43 [Thread-11] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Wed Aug 29 13:43:28 CST 2018]; root of context hierarchy
+2018/08/29-13:43 [Thread-11] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Unregistering JMX-exposed beans on shutdown
+2018/08/29-13:43 [Thread-11] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Unregistering JMX-exposed beans
+2018/08/30-16:35 [main] INFO  com.shy.WulianPlatformApp- Starting WulianPlatformApp on DESKTOP-G6NH8CR with PID 12760 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-16:35 [main] INFO  com.shy.WulianPlatformApp- No active profile set, falling back to default profiles: default
+2018/08/30-16:35 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 16:35:33 CST 2018]; root of context hierarchy
+2018/08/30-16:35 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-16:35 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian, com.shy]' package. Please check your configuration.
+2018/08/30-16:35 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5564ac78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-16:35 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-16:35 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-16:35 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-16:35 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-16:35 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 4038 ms
+2018/08/30-16:35 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter- Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'mqttsClientSubMain': Unsatisfied dependency expressed through field 'callback'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mqttsClientCallback': Unsatisfied dependency expressed through field 'gatewayDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018/08/30-16:35 [main] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018/08/30-16:35 [main] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018/08/30-16:35 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gatewayDao in com.shy.iot.wulian.business.wlink.mqtt.MqttsClientCallback required a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' in your configuration.
+
+2018/08/30-16:38 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- Starting WulianApiTestApplication on DESKTOP-G6NH8CR with PID 5088 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-16:38 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- No active profile set, falling back to default profiles: default
+2018/08/30-16:38 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 16:38:40 CST 2018]; root of context hierarchy
+2018/08/30-16:38 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-16:38 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian]' package. Please check your configuration.
+2018/08/30-16:38 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae0bf703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-16:38 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-16:38 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-16:38 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-16:38 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-16:38 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3257 ms
+2018/08/30-16:38 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter- Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'mqttsClientSubMain': Unsatisfied dependency expressed through field 'callback'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mqttsClientCallback': Unsatisfied dependency expressed through field 'gatewayDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018/08/30-16:38 [main] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018/08/30-16:38 [main] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018/08/30-16:38 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gatewayDao in com.shy.iot.wulian.business.wlink.mqtt.MqttsClientCallback required a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' in your configuration.
+
+2018/08/30-16:46 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- Starting WulianApiTestApplication on DESKTOP-G6NH8CR with PID 8332 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-16:46 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- No active profile set, falling back to default profiles: default
+2018/08/30-16:46 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 16:46:10 CST 2018]; root of context hierarchy
+2018/08/30-16:46 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-16:46 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian]' package. Please check your configuration.
+2018/08/30-16:46 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6e54789d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-16:46 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-16:46 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-16:46 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-16:46 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-16:46 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3655 ms
+2018/08/30-16:46 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter- Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'mqttsClientSubMain': Unsatisfied dependency expressed through field 'callback'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mqttsClientCallback': Unsatisfied dependency expressed through field 'gatewayDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018/08/30-16:46 [main] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018/08/30-16:46 [main] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018/08/30-16:46 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gatewayDao in com.shy.iot.wulian.business.wlink.mqtt.MqttsClientCallback required a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' in your configuration.
+
+2018/08/30-17:00 [main] INFO  com.shy.WulianPlatformApp- Starting WulianPlatformApp on DESKTOP-G6NH8CR with PID 5880 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-17:00 [main] INFO  com.shy.WulianPlatformApp- No active profile set, falling back to default profiles: default
+2018/08/30-17:00 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5be1d0a4: startup date [Thu Aug 30 17:00:25 CST 2018]; root of context hierarchy
+2018/08/30-17:00 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-17:00 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian, com.shy]' package. Please check your configuration.
+2018/08/30-17:00 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d8720cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-17:00 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-17:00 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-17:00 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-17:00 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-17:00 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3750 ms
+2018/08/30-17:00 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter- Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'mqttsClientSubMain': Unsatisfied dependency expressed through field 'callback'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mqttsClientCallback': Unsatisfied dependency expressed through field 'gatewayDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018/08/30-17:00 [main] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018/08/30-17:00 [main] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018/08/30-17:00 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gatewayDao in com.shy.iot.wulian.business.wlink.mqtt.MqttsClientCallback required a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' in your configuration.
+
+2018/08/30-17:00 [main] INFO  com.shy.WulianPlatformApp- Starting WulianPlatformApp on DESKTOP-G6NH8CR with PID 5460 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-17:00 [main] INFO  com.shy.WulianPlatformApp- No active profile set, falling back to default profiles: default
+2018/08/30-17:00 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:00:31 CST 2018]; root of context hierarchy
+2018/08/30-17:00 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-17:00 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian, com.shy]' package. Please check your configuration.
+2018/08/30-17:00 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4880b8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-17:00 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-17:00 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-17:00 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-17:00 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-17:00 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3385 ms
+2018/08/30-17:00 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter- Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'mqttsClientSubMain': Unsatisfied dependency expressed through field 'callback'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mqttsClientCallback': Unsatisfied dependency expressed through field 'gatewayDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018/08/30-17:00 [main] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018/08/30-17:00 [main] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018/08/30-17:00 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gatewayDao in com.shy.iot.wulian.business.wlink.mqtt.MqttsClientCallback required a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' in your configuration.
+
+2018/08/30-17:01 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- Starting WulianApiTestApplication on DESKTOP-G6NH8CR with PID 12652 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-17:01 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- No active profile set, falling back to default profiles: default
+2018/08/30-17:01 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:01:11 CST 2018]; root of context hierarchy
+2018/08/30-17:01 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-17:01 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian]' package. Please check your configuration.
+2018/08/30-17:01 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9f03a6c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-17:01 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-17:01 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-17:01 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-17:01 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-17:01 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3246 ms
+2018/08/30-17:01 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter- Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'mqttsClientSubMain': Unsatisfied dependency expressed through field 'callback'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mqttsClientCallback': Unsatisfied dependency expressed through field 'gatewayDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018/08/30-17:01 [main] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018/08/30-17:01 [main] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018/08/30-17:01 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gatewayDao in com.shy.iot.wulian.business.wlink.mqtt.MqttsClientCallback required a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' in your configuration.
+
+2018/08/30-17:11 [main] INFO  com.shy.WulianPlatformApp- Starting WulianPlatformApp on DESKTOP-G6NH8CR with PID 976 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-17:11 [main] INFO  com.shy.WulianPlatformApp- No active profile set, falling back to default profiles: default
+2018/08/30-17:11 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:11:50 CST 2018]; root of context hierarchy
+2018/08/30-17:11 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-17:11 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian, com.shy]' package. Please check your configuration.
+2018/08/30-17:11 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf097989] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-17:11 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-17:11 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-17:11 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-17:11 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-17:11 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3859 ms
+2018/08/30-17:11 [localhost-startStop-1] ERROR org.springframework.boot.context.embedded.tomcat.TomcatStarter- Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'mqttsClientSubMain': Unsatisfied dependency expressed through field 'callback'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mqttsClientCallback': Unsatisfied dependency expressed through field 'gatewayDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018/08/30-17:11 [main] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat
+2018/08/30-17:11 [main] INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018/08/30-17:11 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gatewayDao in com.shy.iot.wulian.business.wlink.mqtt.MqttsClientCallback required a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shy.iot.wulian.business.gateway.dao.GatewayDao' in your configuration.
+
+2018/08/30-17:13 [main] INFO  com.shy.WulianPlatformApp- Starting WulianPlatformApp on DESKTOP-G6NH8CR with PID 7204 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-17:13 [main] INFO  com.shy.WulianPlatformApp- No active profile set, falling back to default profiles: default
+2018/08/30-17:13 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:13:45 CST 2018]; root of context hierarchy
+2018/08/30-17:13 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-17:13 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian, com.shy]' package. Please check your configuration.
+2018/08/30-17:13 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a493ca0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-17:13 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-17:13 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-17:13 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3010 ms
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'dispatcherServlet' to [/]
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'statViewServlet' to [/druid/*]
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'mqttsClientSubMain' to [/]
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+2018/08/30-17:13 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'webStatFilter' to urls: [/*]
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/test]}" onto public java.lang.String com.shy.iot.wulian.business.websocket.WebTest.test()
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:13:45 CST 2018]; root of context hierarchy
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver- Detected @ExceptionHandler methods in globalExceptionHandler
+2018/08/30-17:13 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:13 [main] INFO  org.springframework.web.socket.server.standard.ServerEndpointExporter- Registering @ServerEndpoint class: class com.shy.iot.wulian.business.websocket.WebSocketServer
+2018/08/30-17:13 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+2018/08/30-17:13 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018/08/30-17:13 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018/08/30-17:13 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor- Starting beans in phase 2147483647
+2018/08/30-17:13 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2018/08/30-17:13 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found 1 custom documentation plugin(s)
+2018/08/30-17:13 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2018/08/30-17:13 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat started on port(s): 9010 (http)
+2018/08/30-17:26 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- Starting WulianApiTestApplication on DESKTOP-G6NH8CR with PID 12932 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-17:26 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- No active profile set, falling back to default profiles: default
+2018/08/30-17:26 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:26:21 CST 2018]; root of context hierarchy
+2018/08/30-17:26 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-17:26 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian]' package. Please check your configuration.
+2018/08/30-17:26 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70231c80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-17:26 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-17:26 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-17:26 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3357 ms
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'dispatcherServlet' to [/]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'statViewServlet' to [/druid/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'mqttsClientSubMain' to [/]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'webStatFilter' to urls: [/*]
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/test]}" onto public java.lang.String com.shy.iot.wulian.business.websocket.WebTest.test()
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:26:21 CST 2018]; root of context hierarchy
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver- Detected @ExceptionHandler methods in globalExceptionHandler
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:26 [main] INFO  org.springframework.web.socket.server.standard.ServerEndpointExporter- Registering @ServerEndpoint class: class com.shy.iot.wulian.business.websocket.WebSocketServer
+2018/08/30-17:26 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+2018/08/30-17:26 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018/08/30-17:26 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018/08/30-17:26 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor- Starting beans in phase 2147483647
+2018/08/30-17:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2018/08/30-17:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found 1 custom documentation plugin(s)
+2018/08/30-17:26 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2018/08/30-17:26 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat started on port(s): 9010 (http)
+2018/08/30-17:26 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- Starting WulianApiTestApplication on DESKTOP-G6NH8CR with PID 6036 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-17:26 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- No active profile set, falling back to default profiles: default
+2018/08/30-17:26 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:26:53 CST 2018]; root of context hierarchy
+2018/08/30-17:26 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-17:26 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian]' package. Please check your configuration.
+2018/08/30-17:26 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4444822] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-17:26 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-17:26 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-17:26 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2688 ms
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'dispatcherServlet' to [/]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'statViewServlet' to [/druid/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'mqttsClientSubMain' to [/]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+2018/08/30-17:26 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'webStatFilter' to urls: [/*]
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/test]}" onto public java.lang.String com.shy.iot.wulian.business.websocket.WebTest.test()
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:26:53 CST 2018]; root of context hierarchy
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver- Detected @ExceptionHandler methods in globalExceptionHandler
+2018/08/30-17:26 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:26 [main] INFO  org.springframework.web.socket.server.standard.ServerEndpointExporter- Registering @ServerEndpoint class: class com.shy.iot.wulian.business.websocket.WebSocketServer
+2018/08/30-17:26 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+2018/08/30-17:26 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018/08/30-17:26 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018/08/30-17:26 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor- Starting beans in phase 2147483647
+2018/08/30-17:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2018/08/30-17:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found 1 custom documentation plugin(s)
+2018/08/30-17:26 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2018/08/30-17:26 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat started on port(s): 9010 (http)
+2018/08/30-17:30 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- Starting WulianApiTestApplication on DESKTOP-G6NH8CR with PID 1920 (G:\internetofthings-master\wulian-platform\target\classes started by 程序猿 in G:\internetofthings-master)
+2018/08/30-17:30 [main] INFO  com.shy.iot.wulian.WulianApiTestApplication- No active profile set, falling back to default profiles: default
+2018/08/30-17:30 [main] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:30:34 CST 2018]; root of context hierarchy
+2018/08/30-17:30 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.wulian.business.*.dao]' package. Please check your configuration.
+2018/08/30-17:30 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.shy.iot.wulian]' package. Please check your configuration.
+2018/08/30-17:30 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1bb232f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018/08/30-17:30 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 9010 (http)
+2018/08/30-17:30 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/08/30-17:30 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.16
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2968 ms
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'dispatcherServlet' to [/]
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'statViewServlet' to [/druid/*]
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'mqttsClientSubMain' to [/]
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+2018/08/30-17:30 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'webStatFilter' to urls: [/*]
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/test]}" onto public java.lang.String com.shy.iot.wulian.business.websocket.WebTest.test()
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7722c3c3: startup date [Thu Aug 30 17:30:34 CST 2018]; root of context hierarchy
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver- Detected @ExceptionHandler methods in globalExceptionHandler
+2018/08/30-17:30 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/08/30-17:30 [main] INFO  org.springframework.web.socket.server.standard.ServerEndpointExporter- Registering @ServerEndpoint class: class com.shy.iot.wulian.business.websocket.WebSocketServer
+2018/08/30-17:30 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+2018/08/30-17:30 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'dataSource' has been autodetected for JMX exposure
+2018/08/30-17:30 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018/08/30-17:30 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor- Starting beans in phase 2147483647
+2018/08/30-17:30 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2018/08/30-17:30 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found 1 custom documentation plugin(s)
+2018/08/30-17:30 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2018/08/30-17:30 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat started on port(s): 9010 (http)
+2018/08/30-17:44 [MQTT Ping: paho10710675357228] ERROR org.eclipse.paho.client.mqttv3.internal.ClientState- paho10710675357228: Timed out as no activity, keepAlive=50,000 lastOutboundActivity=1,535,622,192,032 lastInboundActivity=1,535,622,153,413 time=1,535,622,242,032 lastPing=1,535,622,192,032

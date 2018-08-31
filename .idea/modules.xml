@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Internetofthings.iml" filepath="$PROJECT_DIR$/Internetofthings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/central-platform/central-platform.iml" filepath="$PROJECT_DIR$/central-platform/central-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-tools/common-tools.iml" filepath="$PROJECT_DIR$/common-tools/common-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feibit-platform/feibit-platform.iml" filepath="$PROJECT_DIR$/feibit-platform/feibit-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wulian-platform/wulian-platform.iml" filepath="$PROJECT_DIR$/wulian-platform/wulian-platform.iml" />
+    </modules>
+  </component>
+</project>
